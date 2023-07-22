@@ -51,7 +51,7 @@ function generatePassword(){
 
 
 // Write password to the #password input
-function `writePassword`() {
+function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.setAttribute("Placeholder", password) = password;
